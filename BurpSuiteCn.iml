@@ -2,12 +2,21 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    
+    <!-- Define the content root of the module -->
     <content url="file://$MODULE_DIR$">
+      <!-- Source folder for main source files -->
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      
+      <!-- Source folder for test resources -->
       <sourceFolder url="file://$MODULE_DIR$/resources" type="java-test-resource" />
     </content>
+    
+    <!-- Order entries define the dependencies and classpath of the module -->
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    
+    <!-- Library dependencies -->
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="BurpSuiteCn" level="project" />
   </component>
